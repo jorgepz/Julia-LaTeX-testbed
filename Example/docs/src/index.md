@@ -3,15 +3,19 @@
 
 Hello world.
 
-# Example.jl Documentation
+```@contents
+```
 
+
+```@meta
+CurrentModule = Example
+```
 
 ```@docs
 func(x)
 ```
 
-
-# testing LaTeX
+## testing LaTeX
 
 This is text
 ```math
@@ -26,7 +30,6 @@ This is a numbered list:
 ```
   1. text c
 
-
 This is a bullet list:
   * text a
   * text b with another bulltet list
@@ -37,3 +40,5 @@ This is a bullet list:
 ```
     - text e
   * text f
+
+# another title
