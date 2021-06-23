@@ -2,3 +2,4 @@
 *.log
 *.synctex.gz
 docs/build/
+Manifest.toml
