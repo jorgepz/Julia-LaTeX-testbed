@@ -1,3 +1,5 @@
 # Julia-LaTeX-testbed
 
-a repo for testing julia's documenter and LaTeX syntax.
+a repo for testing julia's documenter and LaTeX syntax features mainly `Documenter.jl`.
+
+The examples are based on those from https://juliadocs.github.io/Documenter.jl/stable/man/guide/#Package-Guide
