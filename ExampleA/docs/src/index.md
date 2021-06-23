@@ -1,10 +1,14 @@
 
-# Test documentation
-
-Hello world.
-
 ```@contents
 ```
+
+
+# Introduction documentation
+
+This is an Example project. This section presents an introduction to the project, etc.
+
+The command `contents`inserts a table of contents of all the documentation.
+
 
 ```@meta
 CurrentModule = ExampleA

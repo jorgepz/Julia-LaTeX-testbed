@@ -1,6 +1,7 @@
 push!(LOAD_PATH,"../src/")
 using Documenter, ExampleA
 
+# process format argument, if provided
 if length(ARGS)==0 || ARGS[1] == "pdf"
   outputFormat = Documenter.LaTeX()
 elseif ARGS[1] == "html"
