@@ -6,9 +6,8 @@ Hello world.
 ```@contents
 ```
 
-
 ```@meta
-CurrentModule = Example
+CurrentModule = ExampleA
 ```
 
 ```@docs
