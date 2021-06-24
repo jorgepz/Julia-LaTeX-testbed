@@ -1,4 +1,4 @@
-module ExampleA
+module Example
 
 export func
 

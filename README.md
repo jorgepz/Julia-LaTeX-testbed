@@ -1,4 +1,4 @@
-# Julia-LaTeX-testbed
+# Julia_Docs_Testbed
 
 a repo for testing julia's documenter and LaTeX syntax features mainly `Documenter.jl`.
 

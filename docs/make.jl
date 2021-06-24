@@ -1,5 +1,5 @@
 push!(LOAD_PATH,"../src/")
-using Documenter, ExampleA
+using Documenter, Example
 
 # sets default format or read provided argument
 if length(ARGS)==0
@@ -18,7 +18,7 @@ else
 end
 
 makedocs(
-  sitename="Documentation of ExampleA Project",
+  sitename="Documentation of Example Project",
   format = formatSetting,
   pages = [
     "Home" => "index.md"]
@@ -26,7 +26,7 @@ makedocs(
 
 if formatSetting == "html"
   deploydocs(
-    repo = "github.com/jorgepz/Julia-LaTeX-testbed.git",
+    repo = "github.com/jorgepz/Julia_Docs_Testbed.git",
     push_preview=true
   )
 end
