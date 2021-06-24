@@ -15,6 +15,19 @@ The search directory is the same as the current .md file.
 ## test inserting figures in pdf using raw latex
 
 
+including the pdf
+```@raw latex
+\includegraphics[width=0.5\textwidth]{drawing.pdf}
+```
+
+including a pdf_tex
+
+```@raw latex
+\def\svgwidth{0.5\textwidth}
+\input{drawing.pdf_tex}
+```
+
+
 
 ## test inserting figures in html using raw html
 
