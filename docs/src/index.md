@@ -8,6 +8,8 @@ The command _contents_ command inserts a table of contents of all the documentat
 ```@contents
 ```
 
+## including julia module
+
 ```@meta
 CurrentModule = Example
 ```
@@ -16,20 +18,21 @@ CurrentModule = Example
 func(x)
 ```
 
-## testing LaTeX
+## including latex in markdown
 
-This is text
+This is text followed by a math environment
+
 ```math
  f(x) = \int_0^L x dx
 ```
 
-This is a numbered list:
-  1. text a
-  1. text b
+This is a numbered list where
+  1. first entry with text and this math content $x^2$.
+  1. second entry with text and this equation
 ```math
     f(x) = \int_0^L x dx
 ```
-  1. text c
+  1. third entry. *the counter is reseted by the equation*
 
 This is a bullet list:
   * text a
@@ -39,7 +42,5 @@ This is a bullet list:
 ```math
     f(x) = \int_0^L x dx
 ```
-    - text e
+    - text e this second level bullet is not interpreted if an equation is inserted before
   * text f
-
-# another title

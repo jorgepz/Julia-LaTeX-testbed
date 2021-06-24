@@ -21,7 +21,8 @@ makedocs(
   sitename="Documentation of Example Project",
   format = formatSetting,
   pages = [
-    "Home" => "index.md"]
+    "Home" => "index.md",
+    "More" => "more.md"]
 )
 
 if formatSetting == "html"

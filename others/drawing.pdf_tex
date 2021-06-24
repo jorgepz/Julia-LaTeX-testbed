@@ -38,7 +38,7 @@
   \newcommand*\fsize{\dimexpr\f@size pt\relax}%
   \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{313.69620035bp}%
+    \setlength{\unitlength}{334.69630035bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,10 +50,11 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.41138403)%
+  \begin{picture}(1,0.52474131)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{drawing.pdf}}%
-    \put(0.13193519,0.29350278){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$f(x)=\int_0^{x}x dx$\end{tabular}}}}%
+    \put(0.12727563,0.40381629){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$f(x)=\int_0^{x}x dx$\end{tabular}}}}%
+    \put(0.11130479,0.16466421){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\boldsymbol{\sigma}=\mathbb{C}\boldsymbol{\varepsilon}$\end{tabular}}}}%
   \end{picture}%
 \endgroup%
