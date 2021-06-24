@@ -21,10 +21,6 @@ including the pdf
 
 including a pdf_tex
 
-```@raw latex
-\def\svgwidth{0.5\textwidth}
-\input{drawing.pdf_tex}
-```
 
 
 ## test inserting figures in html using raw html
