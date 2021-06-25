@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg12"
+   inkscape:version="1.1 (c4e8f9ed74, 2021-05-24)"
+   sodipodi:docname="drawing.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview14"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.5499273"
+     inkscape:cx="855.56763"
+     inkscape:cy="752.82678"
+     inkscape:window-width="1920"
+     inkscape:window-height="979"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs9">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1080">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop1076" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop1078" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1080"
+       id="linearGradient1082"
+       x1="26.264345"
+       y1="144.21321"
+       x2="144.33776"
+       y2="144.21321"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:url(#linearGradient1082);fill-rule:evenodd;stroke-width:0.485;stroke:#026cfe;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;fill-opacity:1"
+       id="rect38"
+       width="117.58842"
+       height="61.473"
+       x="26.506845"
+       y="113.47671" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.91257px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.147815"
+       x="41.292213"
+       y="127.51224"
+       id="text870"><tspan
+         sodipodi:role="line"
+         id="tspan868"
+         style="stroke-width:0.147815"
+         x="41.292213"
+         y="127.51224">$f(x)=\int_0^{x}x dx$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.81421px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.120355"
+       x="51.696541"
+       y="118.72263"
+       id="text4462"
+       transform="scale(0.76226535,1.3118791)"><tspan
+         sodipodi:role="line"
+         id="tspan4460"
+         style="stroke-width:0.120355"
+         x="51.696541"
+         y="118.72263">$\boldsymbol{\sigma}=\mathbb{C}\boldsymbol{\varepsilon}$</tspan></text>
+  </g>
+</svg>
