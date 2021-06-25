@@ -42,6 +42,7 @@ end
 if outputFormat == "html"
   deploydocs(
     repo = "github.com/jorgepz/Julia_Docs_Testbed.git",
-    push_preview=true
+    push_preview=true,
+    devbranch = "main"
   )
 end
