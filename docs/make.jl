@@ -8,24 +8,38 @@ else
     outputFormat = ARGS[1]
 end
 
-# sets different format settings for makedocs
+
+# sets different format and pages settings for each output format
 if outputFormat == "pdf"
-  formatSetting = Documenter.LaTeX()
+
+    makedocs(
+      sitename="Documentation of Example Project",
+      format = Documenter.LaTeX(),
+      pages = [
+        "Introduction" => "index.md",
+        "Second part" => "more.md",
+        "Third" => ["thirdA.md","thirdB.md"]
+      ]
+    )
+
 elseif outputFormat == "html"
-  formatSetting = Documenter.HTML(prettyurls = get(ENV, "CI", nothing) == "true")
+
+  makedocs(
+    sitename="Documentation of Example Project",
+    format = Documenter.HTML(prettyurls = get(ENV, "CI", nothing) == "true"),
+    pages = [
+      "Introduction" => "index.md",
+      "Second part" => "more.md",
+      "Third" => ["thirdA.md","thirdB.md"]
+    ]
+  )
+
 else
   error("Output format not considered yet. Please open an issue.")
 end
 
-makedocs(
-  sitename="Documentation of Example Project",
-  format = formatSetting,
-  pages = [
-    "Home" => "index.md",
-    "More" => "more.md"]
-)
 
-if formatSetting == "html"
+if outputFormat == "html"
   deploydocs(
     repo = "github.com/jorgepz/Julia_Docs_Testbed.git",
     push_preview=true

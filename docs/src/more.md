@@ -1,8 +1,8 @@
-# another chapter
+## another chapter
 
 another chapter blah blah
 
-## test inserting tex file
+### test inserting tex file
 
 Another tex file can be inserted using _\input_ in _raw_ latex format as follows
 
@@ -12,7 +12,7 @@ Another tex file can be inserted using _\input_ in _raw_ latex format as follows
 
 The search directory is the same as the current .md file.
 
-## test inserting figures in pdf using raw latex
+### test inserting figures in pdf using raw latex
 
 
 including the pdf
@@ -29,7 +29,7 @@ including a pdf_tex
 
 
 
-## test inserting figures in html using raw html
+### test inserting figures in html using raw html
 
 ```@raw html
 <svg style="display: block; margin: 0 auto;" width="5em" heigth="5em">

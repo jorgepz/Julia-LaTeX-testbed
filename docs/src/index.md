@@ -1,18 +1,24 @@
 
-# Introduction documentation
+## Introduction documentation
 
 This is an Example project used to test features of the JuliaDocs packages.
+
+### section contents
 
 The command _contents_ command inserts a table of contents of all the documentation, as follows:
 
 ```@contents
 ```
+but _parts_ are not included ...
+
 
 ## including julia module
 
 ```@meta
 CurrentModule = Example
 ```
+
+### section include docs
 
 ```@docs
 func(x)
