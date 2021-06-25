@@ -16,10 +16,12 @@ if outputFormat == "pdf"
       sitename="Documentation of Example Project",
       format = Documenter.LaTeX(),
       pages = [
-        "Introduction" => "index.md",
-        "Second part" => "more.md",
-        "Third" => ["thirdA.md","thirdB.md"]
-      ]
+        "index.md",
+        "more.md",
+        "thirdA.md",
+        "thirdB.md"
+      ],
+      authors = "AuthorName"
     )
 
 elseif outputFormat == "html"
