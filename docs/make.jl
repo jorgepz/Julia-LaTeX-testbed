@@ -30,9 +30,10 @@ elseif outputFormat == "html"
     sitename="Documentation of Example Project",
     format = Documenter.HTML(prettyurls = get(ENV, "CI", nothing) == "true"),
     pages = [
-      "Introduction" => "index.md",
-      "Second part" => "more.md",
-      "Third" => ["thirdA.md","thirdB.md"]
+      "Intro side title" => "index.md",
+      "More side title" => "more.md",
+      "Third A side title" => "thirdA.md",
+      "Third B side title" => "thirdB.md"
     ]
   )
 
